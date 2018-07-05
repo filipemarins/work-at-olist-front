@@ -1,0 +1,29 @@
+{
+  "name": "work-at-olist-front",
+  "version": "1.0.0",
+  "description": "Create account webcomponent composed of Name, Email and Password with a strength measure indicator and Password confirmation.",
+  "main": "assets/js/CreateAccount.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipemarins/work-at-olist-front.git"
+  },
+  "keywords": [
+    "olist",
+    "webcomponent",
+    "form"
+  ],
+  "author": "Filipe Marins <filipemarins123@gmail.com> (https://filipemarins.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipemarins/work-at-olist-front/issues"
+  },
+  "homepage": "https://github.com/filipemarins/work-at-olist-front#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
