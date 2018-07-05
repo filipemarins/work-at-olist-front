@@ -1,25 +1,29 @@
 ![Logo of the project](./assets/img/olist-logo.png)
 
 # Work at Olist Frontend &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
-> test repo
+> test repo webcomponents form passwords-steps
 
-A brief description of your project, what it is used for.
+This application is comprised of a new account page, composed of Name, Email and Password with a strength measure indicator and Password confirmation. The aim of this project is to to enhance Olist's security by creating verification layers to prevent weak passwords usage. This is only a test project as part of Olist's hiring proccess.
 
 ## Installing / Getting started
 
-A quick introduction of the minimal setup you need to get a hello world up &
-running.
+
+If you wish to build the bundles yourself, you'll need node and npm on your system:
+
+
+You can try out this application by cloning this repository and opening the file `index.html`. The application is supported in all modern browsers include IE 11+.
 
 ```shell
-commands here
+git clone https://github.com/filipemarins/work-at-olist-front.git
 ```
 
-Here you should say what actually happens when you execute the code above.
+The repository will be cloned on your enviroment.
 
 ## Developing
 
 ### Built With
-List main libraries, frameworks used including versions (React, Angular etc...)
+
+This application was written in HTML5, JavaScript (ES6), CSS3 and also with [polyfills webcompoents](https://github.com/webcomponents/webcomponentsjs/).
 
 ### Prerequisites
 What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
@@ -27,75 +31,59 @@ What is needed to set up the dev environment. For instance, global dependencies 
 
 ### Setting up Dev
 
+If you wish to build the application yourself, you'll need `node` and `npm` on your system:
+
+* install [node.js](http://nodejs.org/) using the instructions on their website
+* use `npm` to install
+
 Here's a brief intro about what a developer must do in order to start developing
 the project further:
 
 ```shell
-git clone https://github.com/your/your-project.git
+git clone https://github.com/filipemarins/work-at-olist-front.git
 cd your-project/
-packagemanager install
+npm install --dev
 ```
 
-And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
-
-### Building
-
-If your project needs some additional steps for the developer to build the
-project after some code changes, state them here. for example:
-
-```shell
-./configure
-make
-make install
-```
-
-Here again you should state what actually happens when the code above gets
-executed.
-
-### Deploying / Publishing
-give instructions on how to build and release a new version
-In case there's some step you have to take that publishes this project to a
-server, this is the right time to state it.
-
-```shell
-packagemanager deploy your-project -s server.com -u username -p password
-```
-
-And again you'd need to tell what the previous code actually does.
-
-## Versioning
-
-We can maybe use [SemVer](http://semver.org/) for versioning. For the versions available, see the [link to tags on this repository](/tags).
-
-
-## Configuration
-
-Here you should write what are all of the configurations a user can enter when
-using the project.
+The repository will be cloned on your enviroment and install the development dependecies.
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
-Explain what these tests test and why.
+To run tests it is simple, you just need to run the code:
 
 ```shell
-Give an example
+npm run test
 ```
+
+This will test all the methods from the component CreateAccount.
 
 ## Style guide
 
-Explain your code style and show how to check it.
+This application was written using the [Airbnb Style Guide](https://github.com/airbnb/javascript). To check you just need to run:
 
-## Api Reference
-
-If the api is external, link to api documentation. If not describe your api including authentication methods as well as explaining all the endpoints with their required parameters.
-
-
-## Database
-
-Explaining what database (and version) has been used. Provide download links.
-Documents your database design and schemas, relations etc... 
+```shell
+npm run lint
+```
 
 ## Licensing
 
-State what the license is and how to find the text version of the license.
+Copyright (c) 2018 Filipe Barbosa Marins
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
