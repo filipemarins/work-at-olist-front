@@ -4,7 +4,10 @@
   "description": "Create account webcomponent composed of Name, Email and Password with a strength measure indicator and Password confirmation.",
   "main": "assets/js/CreateAccount.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint assets/js/*.js",
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js  --require babel-register --watch",
+    "test:coverage": "nyc npm test"
   },
   "repository": {
     "type": "git",
@@ -22,8 +25,13 @@
   },
   "homepage": "https://github.com/filipemarins/work-at-olist-front#readme",
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-plugin-import": "^2.13.0"
+    "eslint-plugin-import": "^2.13.0",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2"
   }
 }
