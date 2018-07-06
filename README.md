@@ -55,7 +55,7 @@ To run tests it is simple, you just need to run the code:
 npm run test
 ```
 
-This will test all the methods from the component CreateAccount.
+This will test the methods from the webcomponent CreateAccount.
 
 ## Style guide
 
