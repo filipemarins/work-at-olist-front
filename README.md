@@ -67,7 +67,7 @@ npm run lint
 
 ## Demo
 
-The application demo can be find [here](http://olist-filipemarins123310005.codeanyapp.com/work-at-olist-front/).
+The application demo can be find [here](https://frozen-lake-31524.herokuapp.com/).
 
 ## Licensing
 
