@@ -171,7 +171,7 @@ describe('CreateAccount', () => {
     });
   });
 
-  describe('validatePassword', () => {
+  describe('validatePasswordConfirmation', () => {
     beforeEach(() => {
       createAccount.passwordConfirmation = createField();
     });
@@ -215,7 +215,7 @@ describe('CreateAccount', () => {
       expect(createAccount.passwordConfirmation.isValid).to.be.false;
     });
   });
-  describe('validatePassword', () => {
+  describe('validateForm', () => {
     beforeEach(() => {
       createAccount.name = createField();
       createAccount.email = createField();
