@@ -11,13 +11,26 @@ This application is comprised of a new account page, composed of Name, Email and
 If you wish to build the bundles yourself, you'll need node and npm on your system:
 
 
-You can try out this application by cloning this repository and opening the file `index.html`. The application is supported in all modern browsers include IE 11+.
+You can try out this application by cloning this repository and executing http-server. The application is supported in all modern browsers include IE 11+.
 
 ```shell
 git clone https://github.com/filipemarins/work-at-olist-front.git
+npx http-server
 ```
 
-The repository will be cloned on your enviroment.
+The repository will be cloned on your enviroment so you can execute the http-server.
+
+It should appear something like this:
+
+```shell
+Starting up http-server, serving ./
+Available on:
+  http://127.0.0.1:8080
+  http://192.168.0.101:8080
+Hit CTRL-C to stop the server
+```
+
+Now you can try the application on `http://127.0.0.1:8080`.
 
 ## Developing
 
